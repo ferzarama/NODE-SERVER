@@ -35,18 +35,18 @@ class ListaDeTareas {
 
 const listaTareas = new ListaDeTareas();
 
-// Agregar tareas de ejemplo
+
 listaTareas.agregarTarea('1', 'Hacer la compra');
 listaTareas.agregarTarea('2', 'Preparar la presentación');
 
-// Mostrar lista de tareas antes de eliminar/completar
+
 console.log('Lista de tareas:', listaTareas.tareas);
 
-// Eliminar una tarea
+
 listaTareas.eliminarTarea('1');
 
-// Completar una tarea
+
 listaTareas.completarTarea('2');
 
-// Mostrar lista de tareas después de eliminar/completar
+
 console.log('Lista de tareas actualizada:', listaTareas.tareas);
